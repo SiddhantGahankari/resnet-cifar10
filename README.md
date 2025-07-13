@@ -2,6 +2,13 @@
 
 This repository contains a PyTorch implementation of ResNet for image classification on the CIFAR-10 dataset. It includes data loading, model definition, training, evaluation, and visualization scripts, along with unit tests for key components.
 
+## Final Model Performance
+
+- **Best Test Accuracy**: **94.11%**
+- **Best Test Loss**: ~0.652
+- **Best Epoch**: 57
+- Trained using **ResNet-18**, SGD optimizer with momentum and weight decay, and MultiStepLR scheduler.
+
 ## Project Structure
 
 ```
@@ -33,7 +40,7 @@ tests/
 
 1. **Clone the repository:**
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/SiddhantGahankari/resnet-cifar10.git
    cd Resnet
    ```
 
